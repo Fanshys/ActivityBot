@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node --inspect=5859 -r ts-node/register src/index.ts",
+    "start": "node -r ts-node/register src/index.ts",
     "lint": "eslint --fix",
     "tsc": "tsc",
     "tslint": "npm run lint && npm run tsc"
