@@ -1,0 +1,1 @@
+export { messageStoreFeature } from './messageStoreFeature';
